@@ -1,0 +1,13 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:industry:MotionSensor;1",
+  "@type": "Interface",
+  "displayName": "Motion Sensor",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "isMotionDetected",
+      "schema": "boolean"
+    }
+  ]
+}

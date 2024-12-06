@@ -1,0 +1,14 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:industry:TemperatureSensor;1",
+    "@type": "Interface",
+    "displayName": "Temperature Sensor",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "temperature",
+        "schema": "double"
+      }
+    ]
+  }
+  
